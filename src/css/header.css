@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 72.5px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+header .logo {
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header .logo span {
+    color: #FFC451;
+    display: inline-flex;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 12px;
+}
+
+header nav ul li a:hover {
+    color: #FFC451;
+    transition-duration: 400ms;
+}
+
+header nav ul li.active a {
+    color: #FFC451;
+}
+
+header .button {
+    border: 2px solid #FFC451;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #FFF;
+    padding: 8px 20px;
+}
+
+header .button:hover {
+    background-color: #FFC451;
+    color: #555;
+    transition-duration: 300ms;
+}
