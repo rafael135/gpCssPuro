@@ -49,6 +49,9 @@ header nav ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
 }
 
 header nav ul li a {
@@ -67,6 +70,24 @@ header nav ul li a:hover {
 
 header nav ul li.active a {
     color: #FFC451;
+}
+
+header .nav-menu {
+    background-color: transparent;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+
+.nav-menu .menu-line {
+    width: 80%;
+    height: 3px;
+    background-color: #FFC451;
 }
 
 header .button {

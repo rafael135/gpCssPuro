@@ -1,4 +1,11 @@
 @media (max-width: 1520px) {
+    header .container {
+        max-width: 1200px;
+        width: 1200px;
+        margin-left: calc((100vw - 1200px) / 2);
+        margin-right: calc((100vw - 1200px) / 2);
+    }
+
     #section-banner,
     #section-about,
     #section-clients,
@@ -6,7 +13,9 @@
     #section-services,
     #section-call,
     #section-counts,
-    #section-employee .bg-content {
+    #section-employee .bg-content,
+    #section-team,
+    #section-contact {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -20,7 +29,9 @@
     #section-services .container,
     #section-call .container,
     #section-counts .container,
-    #section-employee .container {
+    #section-employee .container,
+    #section-team .container,
+    #section-contact .container {
         max-width: 1200px;
         margin-right: 0;
         margin-left: 0;
@@ -62,5 +73,538 @@
     }
     .slider-employees .slides .slide .slider-area {
         width: 1200px;
+    }
+
+    #section-team {
+
+    }
+    .team .worker {
+
+    }
+    .team .worker .worker-img img {
+        width: 266px;
+        height: 266px;
+    }
+
+    #section-contact{
+
+    }
+}
+
+
+@media (max-width: 1320px) {
+    header .container {
+        max-width: 1000px;
+        width: 1000px;
+        margin-left: calc((100vw - 1000px) / 2);
+        margin-right: calc((100vw - 1000px) / 2);
+    }
+
+
+    #section-banner .container,
+    #section-about .container,
+    #section-clients .container,
+    #section-features .container,
+    #section-services .container,
+    #section-call .container,
+    #section-counts .container,
+    #section-employee .container,
+    #section-team .container,
+    #section-contact .container {
+        max-width: 1000px;
+    }
+
+    #section-about {
+
+    }
+    #section-about .text-about h3 {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    #section-about .text-about span {
+        font-size: 15px;
+    }
+    .text-about ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .text-about ul li {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .text-about ul li:last-child {
+        margin-bottom: 0;
+    }
+    .text-about p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .cards-services .card {
+        height: 450px;
+        min-width: 800px;
+    }
+    .cards-services .card:nth-child(4),
+    .cards-services .card:nth-child(5),
+    .cards-services .card:nth-child(6) {
+    margin-bottom: 30px;
+    }
+
+    .cards-services .card .card-img {
+        width: 192px;
+        height: 192px;
+    }
+    .cards-services .card .card-img img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .cards-services .card .card-title {
+        font-size: 32px;
+    }
+
+    .cards-services .card .card-text {
+        font-size: 18px;
+    }
+
+
+
+    #section-employee .employees {
+        max-width: 1000px;
+    }
+    #section-employee .slider-employees {
+        max-width: 1000px;
+    }
+    .slider-employees .slides .slide {
+        width: 1000px;
+    }
+    .slider-employees .slides .slide .slider-area {
+        width: 1000px;
+    }
+
+
+
+    #section-team {
+
+    }
+    .team .worker {
+
+    }
+    .team .worker .worker-img img {
+        width: 236px;
+        height: 236px;
+    }
+
+    .team .worker .worker-info .worker-name {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .team .worker .worker-info .worker-role {
+        font-family: "Raleway", sans-serif;
+        color: #848484;
+        font-size: 13px;
+        line-height: 13px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 1120px) {
+    #section-banner .section-banner-cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .section-banner-cards .card {
+        min-width: 350px;
+        height: 170px;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .section-banner-cards .card:nth-child(4) {
+        margin-right: 0;
+    }
+    .section-banner-cards .card:last-child {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1090px) {
+    header .container {
+        max-width: 920px;
+        width: 920px;
+        margin-left: calc((100vw - 920px) / 2);
+        margin-right: calc((100vw - 920px) / 2);
+    }
+
+
+    #section-banner .container,
+    #section-about .container,
+    #section-clients .container,
+    #section-features .container,
+    #section-services .container,
+    #section-call .container,
+    #section-counts .container,
+    #section-employee .container,
+    #section-team .container,
+    #section-contact .container {
+        max-width: 920px;
+    }
+
+    #section-about {
+
+    }
+    #section-about .text-about h3 {
+        font-size: 21px;
+        line-height: 23px;
+    }
+    #section-about .text-about span {
+        font-size: 14px;
+    }
+    .text-about ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .text-about ul li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .text-about ul li:last-child {
+        margin-bottom: 0;
+    }
+    .text-about p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+
+
+    #section-employee .employees {
+        max-width: 920px;
+    }
+    #section-employee .slider-employees {
+        max-width: 920px;
+    }
+    .slider-employees .slides .slide {
+        width: 920px;
+    }
+    .slider-employees .slides .slide .slider-area {
+        width: 920px;
+    }
+
+
+
+    #section-team {
+
+    }
+    #section-team .team {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .team .worker {
+        margin-bottom: 60px;
+    }
+    .team .worker:nth-child(3),
+    .team .worker:nth-child(4) {
+        margin-bottom: 0;
+    }
+    .team .worker .worker-img img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .team .worker .worker-info .worker-name {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .team .worker .worker-info .worker-role {
+        font-family: "Raleway", sans-serif;
+        color: #848484;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 960px) {
+    header .container {
+        max-width: 780px;
+        width: 780px;
+        margin-left: calc((100vw - 780px) / 2);
+        margin-right: calc((100vw - 780px) / 2);
+    }
+
+
+    #section-banner .container,
+    #section-about .container,
+    #section-clients .container,
+    #section-features .container,
+    #section-services .container,
+    #section-call .container,
+    #section-counts .container,
+    #section-employee .container,
+    #section-team .container,
+    #section-contact .container {
+        max-width: 780px;
+    }
+    #section-banner {
+        padding: 80px 0;
+    }
+
+    #section-about .container {
+        flex-direction: column;
+    }
+    #section-about .text-about {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #section-about .text-about h3 {
+        font-size: 21px;
+        line-height: 23px;
+    }
+    #section-about .text-about span {
+        font-size: 14px;
+    }
+    .text-about ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .text-about ul li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .text-about ul li:last-child {
+        margin-bottom: 0;
+    }
+    .text-about p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+
+
+    .cards-services .card {
+        height: 380px;
+        min-width: 600px;
+    }
+    .cards-services .card:nth-child(4),
+    .cards-services .card:nth-child(5),
+    .cards-services .card:nth-child(6) {
+    margin-bottom: 30px;
+    }
+
+    .cards-services .card .card-img {
+        width: 160px;
+        height: 160px;
+    }
+    .cards-services .card .card-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cards-services .card .card-title {
+        font-size: 32px;
+    }
+
+    .cards-services .card .card-text {
+        font-size: 18px;
+    }
+
+
+    #section-counts {
+
+    }
+    #section-counts .container {
+        flex-direction: column;
+    }
+    #section-counts .img {
+        width: 780px;
+    }
+    #section-counts .count-collection {
+        padding-left: 0;
+    }
+    #section-counts .text-block {
+        padding-left: 0;
+    }
+    #section-counts .text-block h2 {
+        text-align: center;
+        align-self: center;
+    }
+    #section-counts .counters {
+        align-items: center;
+    }
+
+
+
+    #section-employee .employees {
+        max-width: 780px;
+    }
+    #section-employee .slider-employees {
+        max-width: 780px;
+    }
+    .slider-employees .slides .slide {
+        width: 780px;
+    }
+    .slider-employees .slides .slide .slider-area {
+        width: 780px;
+    }
+}
+
+@media (max-width: 840px) {
+    header .container {
+        max-width: 660px;
+        width: 100%;
+        margin-left: 60px;
+        margin-right: 60px;
+        justify-content: space-between;
+    }
+
+    header #nav-menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        margin-top: 72.5px;
+        height: calc(100vh - 72.5px);
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    #nav-menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header nav ul li:first-child {
+        border-top: 1px solid #555;
+    }
+    header nav ul li {
+        width: 100%;
+        padding: 16px 0;
+        border-bottom: 1px solid #555;
+    }
+    header nav ul li:hover {
+        background-color: #f8ab11;
+        transition-duration: 400ms;
+    }
+    header nav ul li:last-child {
+        
+    }
+    header nav ul li a {
+        font-size: 32px;
+        margin-right: 0;
+        padding-left: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    header nav ul li a:hover {
+        background-color: transparent;
+        color: #FFF;
+    }
+
+    header .nav-menu {
+        display: inline-flex;
+    }
+
+    header .button {
+        
+    }
+
+    #section-banner .container,
+    #section-about .container,
+    #section-clients .container,
+    #section-features .container,
+    #section-services .container,
+    #section-call .container,
+    #section-counts .container,
+    #section-employee .container,
+    #section-team .container,
+    #section-contact .container {
+        max-width: 660px;
+    }
+
+    #section-banner .container h1 {
+        
+    }
+
+    #section-banner .section-banner-cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .section-banner-cards .card {
+        min-width: 280px;
+        height: 120px;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .section-banner-cards .card-img svg {
+        width: 44px;
+        height: 44px;
+    }
+    .section-banner-cards .card:nth-child(4) {
+        margin-right: 0;
+    }
+    .section-banner-cards .card:last-child {
+        margin-right: 0;
+        margin-bottom: 0;
+        min-width: 560px;
+    }
+
+
+
+
+
+    #section-team {
+
+    }
+    #section-team .team {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .team .worker {
+        margin-bottom: 60px;
+    }
+    .team .worker:nth-child(3)
+    {
+        margin-bottom: 60px;
+    }
+    .team .worker:last-child {
+        margin-bottom: 0;
+    }
+    .team .worker .worker-img img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .team .worker .worker-info .worker-name {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .team .worker .worker-info .worker-role {
+        font-family: "Raleway", sans-serif;
+        color: #848484;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 400;
     }
 }
