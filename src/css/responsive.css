@@ -1,3 +1,66 @@
-@media (max-width: 1140px) {
-    
+@media (max-width: 1520px) {
+    #section-banner,
+    #section-about,
+    #section-clients,
+    #section-features,
+    #section-services,
+    #section-call,
+    #section-counts,
+    #section-employee .bg-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-banner .container,
+    #section-about .container,
+    #section-clients .container,
+    #section-features .container,
+    #section-services .container,
+    #section-call .container,
+    #section-counts .container,
+    #section-employee .container {
+        max-width: 1200px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #section-services .cards-services {
+        justify-content: space-evenly;
+    }
+    .cards-services .card {
+        height: 360px;
+        min-width: 560px;
+        max-width: 560px;
+    }
+    .cards-services .card .card-img {
+        width: 128px;
+        height: 128px;
+    }
+    .cards-services .card .card-img img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .cards-services .card .card-title {
+        font-size: 28px;
+    }
+
+    .cards-services .card .card-text {
+        font-size: 16px;
+    }
+
+    #section-employee .employees {
+        max-width: 1200px;
+    }
+    #section-employee .slider-employees {
+        max-width: 1200px;
+    }
+    .slider-employees .slides .slide {
+        width: 1200px;
+    }
+    .slider-employees .slides .slide .slider-area {
+        width: 1200px;
+    }
 }
