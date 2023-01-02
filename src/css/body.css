@@ -732,13 +732,13 @@ span.txt-orange {
     line-height: 24px;
 }
 .slider-employees .slide .employee-text::before {
-    content: '"';
+    content: '" ';
     vertical-align: middle;
     font-size: 48px;
     color: #999;
 }
 .slider-employees .slide .employee-text::after {
-    content: '"';
+    content: ' "';
     vertical-align: middle;
     font-size: 48px;
     color: #999;

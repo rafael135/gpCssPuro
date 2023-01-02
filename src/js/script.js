@@ -53,6 +53,12 @@ employee2.addEventListener("click", () => {
         case 4:
             slideEmployees.style.marginLeft = "-780px";
             break;
+        case 5:
+            slideEmployees.style.marginLeft = "-660px";
+            break;
+        case 6:
+            slideEmployees.style.marginLeft = "-540px";
+            break;
     }
     
     toggleEmployeeActive(1);
@@ -78,6 +84,12 @@ employee3.addEventListener("click", () => {
             break;
         case 4:
             slideEmployees.style.marginLeft = "-1560px";
+            break;
+        case 5:
+            slideEmployees.style.marginLeft = "-1320px";
+            break;
+        case 6:
+            slideEmployees.style.marginLeft = "-1080px";
             break;
     }
 
@@ -105,6 +117,12 @@ employee4.addEventListener("click", () => {
         case 4:
             slideEmployees.style.marginLeft = "-2340px";
             break;
+        case 5:
+            slideEmployees.style.marginLeft = "-1980px";
+            break;
+        case 6:
+            slideEmployees.style.marginLeft = "-1620px";
+            break;
     }
     
     toggleEmployeeActive(3);
@@ -131,6 +149,12 @@ employee5.addEventListener("click", () => {
             break;
         case 4:
             slideEmployees.style.marginLeft = "-3120px";
+            break;
+        case 5:
+            slideEmployees.style.marginLeft = "-2640px";
+            break;
+        case 6:
+            slideEmployees.style.marginLeft = "-2160px";
             break;
 
     }
@@ -167,7 +191,11 @@ function activeWidth() {
         return 3;
     } else if(employeeContainer.offsetWidth == 780) { // 780px
         return 4;
-    } else {
+    } else if(employeeContainer.offsetWidth == 660) { // 660px
         return 5;
+    } else if(employeeContainer.offsetWidth == 540) { // 540px
+        return 6;
+    } else {
+        return 7
     }
 }
