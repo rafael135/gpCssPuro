@@ -734,12 +734,14 @@ span.txt-orange {
 .slider-employees .slide .employee-text::before {
     content: '" ';
     vertical-align: middle;
+    font-weight: 600;
     font-size: 48px;
     color: #999;
 }
 .slider-employees .slide .employee-text::after {
     content: ' "';
     vertical-align: middle;
+    font-weight: 600;
     font-size: 48px;
     color: #999;
 }

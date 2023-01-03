@@ -14,10 +14,10 @@ const menuBtn = document.getElementById("menu-button"); // Botao mobile
 const headerNav = document.getElementById("nav-menu");
 
 menuBtn.addEventListener("click", () => {
-    if(headerNav.style.display == "none") {
-        headerNav.style.display = "block";
+    if(headerNav.classList.contains("show")) {
+        headerNav.classList.remove("show");
     } else {
-        headerNav.style.display = "none";
+        headerNav.classList.add("show");
     }
 });
 
@@ -59,6 +59,12 @@ employee2.addEventListener("click", () => {
         case 6:
             slideEmployees.style.marginLeft = "-540px";
             break;
+        case 7:
+            slideEmployees.style.marginLeft = "-450px";
+            break;
+        case 8:
+            slideEmployees.style.marginLeft = "-400px";
+            break;
     }
     
     toggleEmployeeActive(1);
@@ -90,6 +96,12 @@ employee3.addEventListener("click", () => {
             break;
         case 6:
             slideEmployees.style.marginLeft = "-1080px";
+            break;
+        case 7:
+            slideEmployees.style.marginLeft = "-900px";
+            break;
+        case 8:
+            slideEmployees.style.marginLeft = "-800px";
             break;
     }
 
@@ -123,6 +135,13 @@ employee4.addEventListener("click", () => {
         case 6:
             slideEmployees.style.marginLeft = "-1620px";
             break;
+        case 7:
+            slideEmployees.style.marginLeft = "-1350px";
+            break;
+        case 8:
+            slideEmployees.style.marginLeft = "-1200px";
+            break;
+
     }
     
     toggleEmployeeActive(3);
@@ -155,6 +174,12 @@ employee5.addEventListener("click", () => {
             break;
         case 6:
             slideEmployees.style.marginLeft = "-2160px";
+            break;
+        case 7:
+            slideEmployees.style.marginLeft = "-1800px";
+            break;
+        case 8:
+            slideEmployees.style.marginLeft = "-1600px";
             break;
 
     }
@@ -195,7 +220,11 @@ function activeWidth() {
         return 5;
     } else if(employeeContainer.offsetWidth == 540) { // 540px
         return 6;
+    } else if(employeeContainer.offsetWidth == 450) { // 450px
+        return 7;
+    } else if(employeeContainer.offsetWidth == 400) { // 400px
+        return 8;
     } else {
-        return 7
+        return 9;
     }
 }

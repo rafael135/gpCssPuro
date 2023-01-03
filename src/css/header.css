@@ -83,6 +83,14 @@ header .nav-menu {
     display: none;
     cursor: pointer;
 }
+header .nav-menu:hover {
+    transform: scale(1.05);
+    transition-duration: 100ms;
+}
+header .nav-menu:active {
+    transform: scale(1.08);
+    transition-duration: 100ms;
+}
 
 .nav-menu .menu-line {
     width: 80%;
