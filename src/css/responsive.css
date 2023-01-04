@@ -1101,6 +1101,11 @@
     .slider-employees .slide .employee-text {
         font-size: 12px;
     }
+
+    .team .worker .worker-img img {
+        width: 350px;
+        height: 350px;
+    }
 }
 
 
@@ -1248,6 +1253,10 @@
     }
     #section-team .text-block h2 {
         font-size: 32px;
+    }
+    .team .worker .worker-img img {
+        width: 320px;
+        height: 320px;
     }
 
 
@@ -1430,6 +1439,10 @@
     }
     #section-team .text-block h2 {
         font-size: 32px;
+    }
+    .team .worker .worker-img img {
+        width: 300px;
+        height: 300px;
     }
 
 

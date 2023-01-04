@@ -68,6 +68,9 @@ employee2.addEventListener("click", () => {
         case 9:
             slideEmployees.style.marginLeft = "-350px";
             break;
+        case 10:
+            slideEmployees.style.marginLeft = "-300px";
+            break;
     }
     
     toggleEmployeeActive(1);
@@ -109,6 +112,9 @@ employee3.addEventListener("click", () => {
         case 9:
             slideEmployees.style.marginLeft = "-700px";
             break;
+        case 10:
+            slideEmployees.style.marginLeft = "-600px";
+            break;
     }
 
     toggleEmployeeActive(2);
@@ -149,6 +155,9 @@ employee4.addEventListener("click", () => {
             break;
         case 9:
             slideEmployees.style.marginLeft = "-1050px";
+            break;
+        case 10:
+            slideEmployees.style.marginLeft = "-900px";
             break;
 
     }
@@ -192,6 +201,9 @@ employee5.addEventListener("click", () => {
             break;
         case 9:
             slideEmployees.style.marginLeft = "-1400px";
+            break;
+        case 10:
+            slideEmployees.style.marginLeft = "-1200px";
             break;
 
     }
@@ -238,7 +250,9 @@ function activeWidth() {
         return 8;
     } else if(employeeContainer.offsetWidth == 350) { // 350px
         return 9;
-    } else {
+    } else  if(employeeContainer.offsetWidth == 300) { // 300px
         return 10;
+    } else {
+        return 11;
     }
 }
