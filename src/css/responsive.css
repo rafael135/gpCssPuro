@@ -884,6 +884,14 @@
         max-width: 450px;
     }
 
+    #section-banner .container h1 {
+        font-size: 40px;
+    }
+    #section-banner .container h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
 
 
     #section-about .container {
@@ -1092,5 +1100,344 @@
     }
     .slider-employees .slide .employee-text {
         font-size: 12px;
+    }
+}
+
+
+@media (max-width: 440px) {
+    header .container {
+        max-width: 350px;
+    }
+
+    #section-banner .container,
+    #section-about .container,
+    #section-clients .container,
+    #section-features .container,
+    #section-services .container,
+    #section-call .container,
+    #section-counts .container,
+    #section-employee .container,
+    #section-team .container,
+    #section-contact .container {
+        max-width: 350px;
+    }
+
+    #section-banner .container h1 {
+        font-size: 36px;
+    }
+    #section-banner .container h2 {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .section-banner-cards .card {
+        min-width: 80%;
+        height: 80px;
+    }
+    .section-banner-cards .card:last-child {
+        min-width: 80%;
+    }
+    .section-banner-cards .card-img svg {
+        width: 24px;
+        height: 24px;
+    }
+    .card .card-title {
+        margin-top: 2px;
+    }
+
+
+
+
+    #section-about .container {
+        flex-direction: column;
+    }
+    #section-about .text-about {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #section-about .text-about h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    #section-about .text-about span {
+        font-size: 11px;
+    }
+    .text-about ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .text-about ul li {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .text-about ul li:last-child {
+        margin-bottom: 0;
+    }
+    .text-about p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        text-align: justify;
+        font-size: 11px;
+        margin-bottom: 30px;
+    }
+
+
+    #section-services h3::after {
+        width: 160px;
+    }
+    #section-services h2 {
+        font-size: 32px;
+    }
+
+    .cards-services .card {
+        min-width: 350px;
+        height: 300px;
+    }
+    .cards-services .card .card-img {
+        width: 120px;
+        height: 120px;
+    }
+    .cards-services .card .card-img img {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    #section-counts .img {
+        width: 350px;
+    }
+    #section-counts .text-block h2 {
+        font-size: 20px;
+    }
+    #section-counts .text-block p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .counters .counter .counter-title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .counters .counter .counter-text {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+
+
+    #section-employee .employees {
+        max-width: 350px;
+    }
+    #section-employee .slider-employees {
+        max-width: 350px;
+    }
+    .slider-employees .slides .slide {
+        width: 350px;
+    }
+    .slider-employees .slides .slide .slider-area {
+        width: 350px;
+    }
+    .slider-employees .slide .employee-text {
+        font-size: 11px;
+    }
+
+
+
+    #section-team .text-block h3::after {
+        width: 160px;
+    }
+    #section-team .text-block h2 {
+        font-size: 32px;
+    }
+
+
+
+    #section-contact .text-block h3::after {
+        width: 160px;
+    }
+    #section-contact .text-block h2 {
+        font-size: 32px;
+    }
+}
+
+
+
+
+@media (max-width: 365px) {
+    header .container {
+        max-width: 300px;
+    }
+
+    #section-banner .container,
+    #section-about .container,
+    #section-clients .container,
+    #section-features .container,
+    #section-services .container,
+    #section-call .container,
+    #section-counts .container,
+    #section-employee .container,
+    #section-team .container,
+    #section-contact .container {
+        max-width: 300px;
+    }
+
+    #section-banner .container h1 {
+        font-size: 32px;
+    }
+    #section-banner .container h2 {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .section-banner-cards .card {
+        min-width: 80%;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .section-banner-cards .card:last-child {
+        min-width: 80%;
+    }
+    .section-banner-cards .card-img svg {
+        width: 24px;
+        height: 24px;
+    }
+    .card .card-title {
+        margin-top: 2px;
+    }
+
+
+
+
+    #section-about .container {
+        flex-direction: column;
+    }
+    #section-about .text-about {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    #section-about .text-about h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #section-about .text-about span {
+        font-size: 10px;
+    }
+    .text-about ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .text-about ul li {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .text-about ul li:last-child {
+        margin-bottom: 0;
+    }
+    .text-about p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        text-align: justify;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+
+
+    .features-text .feature .feature-title {
+        font-size: 19px;
+    }
+    .features-text .feature .feature-text {
+        font-size: 13px;
+        color: #545454;
+    }
+
+
+
+
+    #section-services h3::after {
+        width: 120px;
+    }
+    #section-services h2 {
+        font-size: 26px;
+    }
+
+    .cards-services .card {
+        min-width: 300px;
+        height: 300px;
+    }
+    .cards-services .card .card-img {
+        width: 120px;
+        height: 120px;
+    }
+    .cards-services .card .card-img img {
+        width: 60px;
+        height: 60px;
+    }
+    .cards-services .card .card-title {
+        font-size: 28px;
+    }
+    .cards-services .card .card-text {
+        font-size: 16px;
+    }
+
+
+    #section-call p {
+        font-size: 13px;
+    }
+
+
+
+    #section-counts .img {
+        width: 300px;
+    }
+    #section-counts .text-block h2 {
+        font-size: 20px;
+    }
+    #section-counts .text-block p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .counters .counter .counter-title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .counters .counter .counter-text {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+
+
+    #section-employee .employees {
+        max-width: 300px;
+    }
+    #section-employee .slider-employees {
+        max-width: 300px;
+    }
+    .slider-employees .slides .slide {
+        width: 300px;
+    }
+    .slider-employees .slides .slide .slider-area {
+        width: 300px;
+    }
+    .slider-employees .slide .employee-text {
+        font-size: 11px;
+    }
+
+
+
+    #section-team .text-block h3::after {
+        width: 120px;
+    }
+    #section-team .text-block h2 {
+        font-size: 32px;
+    }
+
+
+
+    #section-contact .text-block h3::after {
+        width: 120px;
+    }
+    #section-contact .text-block h2 {
+        font-size: 32px;
     }
 }
